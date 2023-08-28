@@ -68,6 +68,9 @@ ul li a:hover{
 #spotify{
     background-color: purple;
     color: white;
+    height: 30px;
+    width: 150px;
+    margin-left: 350px;
 }
 #spotify a{
     color: white;
