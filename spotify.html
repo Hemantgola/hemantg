@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="spotify.css">
+    <title>Spotify</title>
+</head>
+<body>
+    <div class="navbar">
+        <nav class="nav-list">
+            <ul>
+                <li>Spotify</li>
+                <li><a href="/hemantg/spotify.html">Home</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="main">
+            <div class="song-list">
+                <button id="kaun-hai-voh" onclick="scrchangeKHW()">Kaun Hai Voh</button>
+                <br>
+                <button id="pasoori" onclick="scrchangeP()">Pasoori</button>
+            </div>
+            <div class="c-container">
+                <div class="controls">
+                    <i class="fa-solid fa-play" onclick="playsound()"></i>
+                    <i class="fa-solid fa-pause" onclick="pausesound()"></i>
+                    <i class="fa-solid fa-stop" onclick="stopsound()"></i>
+                    <audio id="audio_player" src=""></audio>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/049b195a91.js" crossorigin="anonymous"></script>
+<script src="spotify.js"></script>
+</html>

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.navbar{
+    background-color: darkslategray;
+}
+.nav-list ul{
+    display: flex;
+    list-style: none;
+}
+.nav-list ul li{
+    color: white;
+    padding: 30px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 25px;
+}
+.nav-list ul li a{
+    text-decoration: none;
+    color: white;
+    padding-left: 100px;
+    font-size: 20px;
+}
+.main{
+    background-color: white;
+    text-align: center;
+    width: 50%;
+    margin-left: 350px;
+    height: 100%;
+    border-radius: 50px;
+}
+.container{
+    text-align: center;
+    height: 600px;
+}
+.controls{
+    margin-top: 15px;
+}
+.controls i{
+    margin: 0px 30px;
+}
+.c-container{
+    position: absolute;
+    bottom: 30px;
+    border: 2px solid darkslategray;
+    height: 50px;
+    width: 50%;
+    border-radius: 30px;
+}
+.song-list button{
+    height: 30px;
+    width: 150px;
+    font-family: 'Varela Round', sans-serif;
+    border-radius: 10px;
+    background-color: purple;
+    color: white;
+    margin-top: 10px;
+}
